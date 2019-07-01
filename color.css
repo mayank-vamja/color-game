@@ -1,0 +1,82 @@
+body {
+	background: #232323;
+	margin: 0;
+	font-family: "Avenir";
+}
+
+#header {
+	width: 100%;
+	margin: 0;
+	padding: 15px;
+	background-color: #2196F3;
+	text-transform: uppercase;
+}
+
+#bar {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: white;
+	text-align: center;	
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#msg {
+	display: inline-block;
+	min-width: 20%;
+	vertical-align: all;
+}
+
+button {
+	border: none;
+	height: 30px;
+	background: none;
+	color: #2196F3;
+	font-size: inherit;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+
+button:hover {
+	background: #2196F3;
+	color: white;
+	transition: all 0.3s;
+}
+
+.selected {
+	background-color: #2196F3;
+	color: white;
+}
+
+#newgame: hover {
+	color: white;
+	background-color: #2196F3;
+}
+
+h1 {
+	margin: 0;
+	font-style: bold;
+	font-size: larger;
+	color: white;
+	text-align: center;
+}
+
+#rand_color {
+	font-size: xx-large;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.square {
+	background-color: #009688;
+	width: 30%;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 0.5s;
+}
